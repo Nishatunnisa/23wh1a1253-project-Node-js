@@ -1,0 +1,88 @@
+:root {
+  --primary-color: #0f172a;
+  --accent-color: #6366f1;
+  --bg-color: #f1f5f9;
+  --text-color: #1e293b;
+  --card-bg: #ffffff;
+  --highlight: #c7d2fe;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 30px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: var(--card-bg);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3em;
+  color: var(--accent-color);
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #475569;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: var(--primary-color);
+  border-left: 6px solid var(--accent-color);
+  padding-left: 12px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+p, li {
+  line-height: 1.8;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+.badge {
+  background: var(--highlight);
+  color: var(--primary-color);
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.8em;
+  margin-left: 8px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #64748b;
+}
